@@ -1,0 +1,33 @@
+.jf-navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.jf-navbar-light {
+    background: white;
+    color: #108ee9;
+    font-size: 16px;
+}
+.jf-navbar-dark {
+    background: #108ee9;
+    color: white;
+    font-size: 16px;
+}
+.jf-navbar-left {
+    flex: 1;
+    padding-left: 15px;
+}
+.jf-navbar-light .jf-navbar-title {
+    flex: 1;
+    text-align: center;
+    color: #000;
+}
+.jf-navbar-title {
+    font-size: 18px;
+}
+.jf-navbar-right {
+    flex: 1;
+    text-align: right;
+}

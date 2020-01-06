@@ -4,6 +4,7 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+    height: 45px;
 }
 .jf-navbar-light {
     background: white;
@@ -18,16 +19,29 @@
 .jf-navbar-left {
     flex: 1;
     padding-left: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 }
-.jf-navbar-light .jf-navbar-title {
-    flex: 1;
-    text-align: center;
-    color: #000;
-}
+
 .jf-navbar-title {
+    flex: 1;
     font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .jf-navbar-right {
     flex: 1;
     text-align: right;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+}
+.jf-navbar-left-icon {
+    line-height: 0;
 }
